@@ -1,4 +1,6 @@
 cmake_minimum_required(VERSION 3.15)
 project( exercises )
 add_executable(example_pointers example_pointers.cpp)
-add_executable(example_new_delete new_delete.cpp)
+add_executable(example_new_delete example_new_delete.cpp)
+add_executable(example_unique_ptr example_unique_ptr.cpp)
+add_executable(example_shared_ptr example_shared_ptr.cpp)
